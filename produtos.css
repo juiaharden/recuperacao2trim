@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /*importanto fonte*/
+
+
+
+body {
+    font-family:'Anton', sans-serif; /*muda a fonte*/
+    margin: 0; /*altera a margem*/
+    padding: 0; /*altera o tamanho interno*/
+    color: #333; /*altera a cor*/
+    background-image: url(fundo.png); /*adiciona imagem de fundo*/
+    background-repeat: no-repeat; /* não duplicar imagem de fundo*/
+    background-position: center center; /*centralizar imagem na página*/
+    background-attachment: fixed; /*define a posição fixa da imagem*/
+    background-size: 800px; /* define tamanho da imagem*/
+}
+
+header {
+    background-color: #5931b6; /* adiciona cor de fundo*/
+    color: white;
+    text-align: center; /* alinha o texto ao centro*/
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2.5em; /* altera o tamanho da fonte*/
+    margin-bottom: 10px; /* altera a margem de baixo*/
+}
+
+header p {
+    font-size: 1.2em; 
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none; /* define estilo de lista*/
+    padding: 0;
+    display: flex; /* altera o layout*/
+    justify-content: center; /* centraliza o conteúdo no centro*/
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a { 
+    text-decoration: none; /*decoração do texto*/
+    color: white;
+    transition: color 0.3s; /*define a velocidade de transição*/
+}
+
+nav a:hover /*ação ao passar o mouse por cima*/ { 
+    color: #ddd;
+}
+
+.produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 20px;
+}
+
+.produtos li {
+    flex: 1; /* altera o layout*/
+    background-color: white;
+    border-radius: 5px; /*adiciona arredondamento nas bordas*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /*adiciona sombra*/
+    padding: 20px;
+    margin-right: 20px; /*define a margem da direita*/
+    text-align: center;
+    transition: transform 0.5s; 
+}
+
+.produtos li:hover {
+    transform: translateY(-15px); /*modifica o elemento visualmente*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.); 
+    cursor: pointer; /*muda o cursor ao passar o mouse*/
+
+}
+
+
+.produtos h2 {
+    color: #5931b6;
+    font-weight: bold; /*altera o peso da fonte*/
+    margin-bottom: 10px; 
+}
+
+.produtos img {
+    max-width: 100%; /*define tamanho máximo*/
+    height: 200px; /*define altura*/
+    margin-bottom: 15px;
+}
+
+.preco {
+    font-weight: bold;
+    color: #dfbc54;
+    font-size: 1.2em;
+    margin-top: 10px; /*define margem de cima*/
+}
+
+p {
+    line-height: 1.6; /* altera o tamanho da linha*/
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
